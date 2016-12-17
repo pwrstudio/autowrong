@@ -1,14 +1,14 @@
 {
     "name": "autowrong",
     "version": "1.0.0",
-    "description": "Node.js module to convert FLV to MP3 files",
+    "description": "Autowrong introduce keyboard typos into a string",
     "main": "index.js",
-    "bin": { "flv2mp3": "index.js" },
+    "bin": { "autowrong": "index.js" },
     "author": "PWR Studio",
-    "keywords": ["mp3", "flv", "converter"],
+    "license" : "MIT",
     "repository" : {
         "type": "git",
-        "url": "https://hacksparrow@github.com/hacksparrow/flv2mp3.git"
-    }
+        "url": "https://github.com/pwrstudio/autowrong.git"
+    },
     "engines": { "node": "*" }
 }

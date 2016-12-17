@@ -56,12 +56,10 @@ module.exports = function (input, options) {
     let outputArray = output.split('')
     output = ''
     outputArray.forEach(function (c, index) {
-      if (!((c <= 32 && outputArray[index] >= 0) || outputArray[index] === 127) && !((c <= 32 && outputArray[index + 1] >= 0) || outputArray[index + 1] === 127)) {
-        if (probability(options.order)) {
-          var temp = outputArray[index]
-          outputArray[index] = outputArray[index + 1]
-          outputArray[index + 1] = temp
-        }
+      if (probability(options.order)) {
+        var temp = outputArray[index]
+        outputArray[index] = outputArray[index + 1]
+        outputArray[index + 1] = temp
       }
     })
     output = outputArray.join('')
