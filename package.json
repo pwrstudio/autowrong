@@ -1,0 +1,14 @@
+{
+    "name": "autowrong",
+    "version": "1.0.0",
+    "description": "Node.js module to convert FLV to MP3 files",
+    "main": "index.js",
+    "bin": { "flv2mp3": "index.js" },
+    "author": "PWR Studio",
+    "keywords": ["mp3", "flv", "converter"],
+    "repository" : {
+        "type": "git",
+        "url": "https://hacksparrow@github.com/hacksparrow/flv2mp3.git"
+    }
+    "engines": { "node": "*" }
+}
